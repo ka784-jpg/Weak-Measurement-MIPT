@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "sha256": "9aa53a5334be1bcbd324c0ce6b323f9a26d52484c8c13c32aa0d8cebbdef7287",
+      "path": "docs/figures/fig02.pdf"
+    },
+    {
+      "sha256": "dffbc062d0c107d277612f756863f53b508b96f2c34e7f508973e10fbc97a51b",
+      "path": "docs/figures/fig02.png"
+    },
+    {
+      "sha256": "18576bed70b65dd38dbca2ea7147562dbf250274543931a33d6c494915288640",
+      "path": "docs/figures/fig03.pdf"
+    },
+    {
+      "sha256": "0e471b1708d80bca946331783325c007f11a054af51f545c55e685988f7e164f",
+      "path": "docs/figures/fig03.png"
+    },
+    {
+      "sha256": "7422bce85c76477e822fe4c8b8287c19d12e8abdad2ea1bbd4a75bbc9d9b6f94",
+      "path": "docs/figures/fig05.pdf"
+    },
+    {
+      "sha256": "70d02c6a0263ef991eae72128143a710429883421607044da9313260797820cf",
+      "path": "docs/figures/fig05.png"
+    },
+    {
+      "sha256": "a586fba70037aee715d1a6a79c8eab9fabd4f70f5da0676b2654f3f8ecf4fe88",
+      "path": "docs/figures/fig06.pdf"
+    },
+    {
+      "sha256": "d2691a3b33b7389df97f916c3fed13a0e0aeff489e0d656454d0db783ed3ee9e",
+      "path": "docs/figures/fig06.png"
+    }
+  ],
+  "retrieved": "2026-10-24"
+}

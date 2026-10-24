@@ -1,0 +1,17 @@
+julia_version = "1.12.6"
+seed = 2026
+L = 4
+layers = 24
+description = "Two single trajectories, not published ensembles"
+
+[models.cgpm]
+strength = 1.0
+p = 0.19
+
+[models.spmm]
+strength = 0.45
+p = 0.28
+
+[sources]
+"cgpm_entropy.jl" = "aadbe6b1cad81402ddf95fd3c68dbb5f0eb28a61cd28bc26115006022f01ad81"
+"spmm_entropy.jl" = "576ec001efe237f7d37e2881fc88db1181722649df20b79edeea45475a83a06a"
