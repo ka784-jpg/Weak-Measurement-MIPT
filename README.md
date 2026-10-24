@@ -4,7 +4,7 @@
 [![Code license: MIT](https://img.shields.io/badge/code_license-MIT-blue.svg)](LICENSE)
 
 Julia statevector simulations of monitored quantum circuits with weak measurements.
-This repository preserves recovered research scripts and supplies small, seeded
+This repository preserves research scripts and supplies small, seeded
 examples that call their original gate and measurement routines.
 
 **Paper:** Kemal Aziz, Ahana Chakraborty, and J. H. Pixley,
@@ -62,7 +62,7 @@ are provided for inspection, not as a cross-platform bitwise guarantee.
 - Original sources are in [research/](research/). They are archived byte-for-byte,
   with descriptive filenames and a [hash manifest](docs/source_manifest.json).
 - Supported examples use the original CGPM/SPMM kernels. A separate test also
-  runs the recovered DGPM Lyapunov driver at small size.
+  runs the DGPM Lyapunov driver at small size.
 - The archive includes ancilla and correlation scripts, but not every archived
   batch entry point has been validated on the modern environment.
 - Production datasets, exact historical seeds, and a complete end-to-end pipeline

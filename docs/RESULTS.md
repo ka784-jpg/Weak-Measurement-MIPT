@@ -14,7 +14,7 @@ maps show entropy variance; the overlaid points use ancilla probes to locate
 the boundary between volume-law (VL) and area-law (AL) regimes.
 
 [Original PDF](figures/fig02.pdf).
-The recovered [CGPM](../research/cgpm_entropy.jl) and
+The [CGPM](../research/cgpm_entropy.jl) and
 [SPMM](../research/spmm_entropy.jl) templates compute entropy-variance observables.
 The [quickstart](../examples/quickstart.jl) calls their local dynamics kernels
 but records a short entropy trace instead of scanning a phase diagram.
@@ -27,7 +27,7 @@ The ancillary-qubit entropy provides a transition diagnostic. Finite-size
 collapse and time dependence are used to investigate critical behavior.
 
 [Original PDF](figures/fig03.pdf).
-Recovered related code: [SPMM ancilla driver](../research/spmm_ancilla.jl).
+Related code: [SPMM ancilla driver](../research/spmm_ancilla.jl).
 [CGPM bipartite](../research/cgpm_bipartite.jl) and
 [two-ancilla correlation](../research/cgpm_ancilla_correlations.jl) templates
 are also preserved, but these are different observables, not interchangeable
@@ -58,10 +58,9 @@ This is the corresponding published transfer-matrix analysis for softened
 projective measurements.
 
 [Original PDF](figures/fig06.pdf).
-The [SPMM free-energy template](../research/spmm_free_energy.jl) is recovered.
-The complete original two-vector SPMM campaign and postprocessing are not yet
-identified in this repository; do not interpret the presence of this figure
-as a claim that the quickstart reproduces its multifractal panels.
+The [SPMM free-energy template](../research/spmm_free_energy.jl) is included.
+The full two-vector SPMM ensemble and postprocessing are outside the supplied
+examples. The quickstart does not reproduce this figure's multifractal panels.
 
 ## What You Can Reproduce Now
 
@@ -69,7 +68,7 @@ as a claim that the quickstart reproduces its multifractal panels.
 | --- | --- |
 | Small CGPM/SPMM trajectories and entropy trace | Yes: [quickstart](../examples/quickstart.jl), [saved outputs](../examples/expected/) |
 | Small DGPM two-vector run | Yes: [test](../tests/runtests.jl) |
-| Original archived simulation definitions | Eight source files with [hashes and origins](source_manifest.json) |
+| Original archived simulation definitions | Eight source files with [integrity hashes](source_manifest.json) |
 | Published figure previews and original figure assets | Figures 2, 3, 5, 6, with [attribution](figures/README.md) |
 | Full ensemble data and all final fitting pipelines | Not included |
 

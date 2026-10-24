@@ -2,51 +2,35 @@
   "files": [
     {
       "sha256": "aadbe6b1cad81402ddf95fd3c68dbb5f0eb28a61cd28bc26115006022f01ad81",
-      "path": "research/cgpm_entropy.jl",
-      "origin": "stabilizer_circuit_MC/HDUphase/HDUweakmsm.in",
-      "cluster": "AP41"
+      "path": "research/cgpm_entropy.jl"
     },
     {
       "sha256": "576ec001efe237f7d37e2881fc88db1181722649df20b79edeea45475a83a06a",
-      "path": "research/spmm_entropy.jl",
-      "origin": "stabilizer_circuit_MC/HDUsoften/HDUweakmsm.in",
-      "cluster": "AP41"
+      "path": "research/spmm_entropy.jl"
     },
     {
       "sha256": "b502d36ca768d2c39d18cb165a9f5b7230b91255a547f0cc66fefdd5e804f501",
-      "path": "research/dgpm_lyapunov.jl",
-      "origin": "lyapunov_weak=1_fast_discrete/inputs/spins8_haar",
-      "cluster": "Amarel"
+      "path": "research/dgpm_lyapunov.jl"
     },
     {
       "sha256": "765f21701288fabcc3c8e81dd994aa78b2a510142072ddedac563bdd73d94814",
-      "path": "research/dgpm_str4_lyapunov.jl",
-      "origin": "lyapunov_weak=4_fast_discrete/inputs/spins8_haar",
-      "cluster": "Amarel"
+      "path": "research/dgpm_str4_lyapunov.jl"
     },
     {
       "sha256": "7b8fc394ea995f0e1b61ff6c55ab9cd553695077327df453f50ad393d1dfe01c",
-      "path": "research/spmm_free_energy.jl",
-      "origin": "ceff_softening/inputs/spins8_haar",
-      "cluster": "Amarel"
+      "path": "research/spmm_free_energy.jl"
     },
     {
       "sha256": "c859a605bd0b1d85521d2d0f02545666dee9066942cb6588ee60ed0a082262f4",
-      "path": "research/spmm_ancilla.jl",
-      "origin": "datacollapse_softening/inputs=0.45/spins8",
-      "cluster": "Amarel"
+      "path": "research/spmm_ancilla.jl"
     },
     {
       "sha256": "ef7633779bf1e3a86eb37942ae9ef1f9d096fd5ee68df2e477702214cca55e32",
-      "path": "research/cgpm_bipartite.jl",
-      "origin": "bipartite_entropies_HDU/weak=1/inputs/spins8",
-      "cluster": "Amarel"
+      "path": "research/cgpm_bipartite.jl"
     },
     {
       "sha256": "498d71008859c5305bf4db0528f6e333c930e8f1a5aecc0a727c870677d8db89",
-      "path": "research/cgpm_ancilla_correlations.jl",
-      "origin": "surface_exponents/nu_periodic/inputs/spins8",
-      "cluster": "Amarel"
+      "path": "research/cgpm_ancilla_correlations.jl"
     }
   ],
   "retrieved": "2026-10-24"
